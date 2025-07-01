@@ -177,6 +177,7 @@ export default function App() {
                     width: 100%;
                     padding: 2.5rem;
                     box-sizing: border-box;
+                    position: relative; /* This is the positioning context for the logo */
                 }
                 .content-grid {
                     display: grid;
@@ -216,6 +217,8 @@ export default function App() {
                     font-size: 2rem;
                     text-align: center;
                     white-space: nowrap;
+                    /* Ensure the logo doesn't intercept clicks meant for the grid */
+                    pointer-events: none; 
                 }
                 .border-text {
                     position: fixed;
@@ -254,16 +257,14 @@ export default function App() {
             
             <div className="main-container">
                 <div className="content-grid">
-                    {/* The four grid items come first to lay out correctly */}
                     <div className="grid-item" onClick={() => setActiveModal('about')}>ABOUT</div>
                     <div className="grid-item" onClick={() => setActiveModal('projects')}>PROJECTS</div>
                     <div className="grid-item" onClick={() => setActiveModal('skills')}>SKILLS</div>
                     <div className="grid-item" onClick={() => setActiveModal('contact')}>CONTACT</div>
-
-                    {/* The logo is last. Its 'position: absolute' will lift it out of the grid flow and overlay it in the center. */}
-                    <div className="central-logo">
-                        <span>HARNEET GAWERA</span>
-                    </div>
+                </div>
+                {/* The logo is now a sibling of the grid, positioned absolutely on top */}
+                <div className="central-logo">
+                    <span>HARNEET GAWERA</span>
                 </div>
             </div>
 

@@ -24,23 +24,23 @@ const BorderText = () => {
             {/* Top Border */}
             <div className="border-text border-top">
                 <div className="marquee-content">
-                    <span>&nbsp;PENETRATION TESTING &nbsp;◆&nbsp; THREAT INTELLIGENCE &nbsp;◆&nbsp; INCIDENT RESPONSE &nbsp;◆&nbsp; SECURE CODE REVIEW &nbsp;◆&nbsp;</span>
-                    <span>&nbsp;PENETRATION TESTING &nbsp;◆&nbsp; THREAT INTELLIGENCE &nbsp;◆&nbsp; INCIDENT RESPONSE &nbsp;◆&nbsp; SECURE CODE REVIEW &nbsp;◆&nbsp;</span>
+                    <span>&nbsp;OSINT ANALYSIS &nbsp;◆&nbsp; CYBER THREAT INTELLIGENCE &nbsp;◆&nbsp; INCIDENT RESPONSE &nbsp;◆&nbsp; SECURE CODE REVIEW &nbsp;◆&nbsp; TTP PROFILING &nbsp;◆&nbsp; LOG ANALYSIS &nbsp;◆&nbsp; MALWARE INVESTIGATION &nbsp;◆&nbsp; FORENSICS REPORTING &nbsp;◆&nbsp; THREAT HURTING &nbsp;◆&nbsp; TRAINING &nbsp;◆&nbsp; PYTHON SCRIPTING &nbsp;◆&nbsp; CLOUD SECURITY &nbsp;◆&nbsp; FIREWALL MANAGEMENT</span>
+                    <span>&nbsp;OSINT ANALYSIS &nbsp;◆&nbsp; CYBER THREAT INTELLIGENCE &nbsp;◆&nbsp; INCIDENT RESPONSE &nbsp;◆&nbsp; SECURE CODE REVIEW &nbsp;◆&nbsp; TTP PROFILING &nbsp;◆&nbsp; LOG ANALYSIS &nbsp;◆&nbsp; MALWARE INVESTIGATION &nbsp;◆&nbsp; FORENSICS REPORTING &nbsp;◆&nbsp; THREAT HURTING &nbsp;◆&nbsp; TRAINING &nbsp;◆&nbsp; PYTHON SCRIPTING &nbsp;◆&nbsp; CLOUD SECURITY &nbsp;◆&nbsp; FIREWALL MANAGEMENT</span>
                 </div>
             </div>
             {/* Bottom Border */}
             <div className="border-text border-bottom">
                 <div className="marquee-content-reverse">
-                    <span>PYTHON &nbsp;X&nbsp; BASH &nbsp;X&nbsp; METASPLOIT &nbsp;X&nbsp; WIRESHARK &nbsp;X&nbsp; NMAP &nbsp;X&nbsp; BURP SUITE &nbsp;X&nbsp;</span>
-                    <span>PYTHON &nbsp;X&nbsp; BASH &nbsp;X&nbsp; METASPLOIT &nbsp;X&nbsp; WIRESHARK &nbsp;X&nbsp; NMAP &nbsp;X&nbsp; BURP SUITE &nbsp;X&nbsp;</span>
+                    <span>PYTHON &nbsp;X&nbsp; BASH &nbsp;X&nbsp; VIRUSTOTAL &nbsp;X&nbsp; WIRESHARK &nbsp;X&nbsp; NMAP &nbsp;X&nbsp; BURP SUITE &nbsp;X&nbsp; SPLUNK &nbsp;X&nbsp; PROOFPOINT &nbsp;X&nbsp; MICROSOFT DEFENDER &nbsp;X&nbsp; NESSUS &nbsp;X&nbsp; CROWDSTRIKE &nbsp;X&nbsp; CYBERARK &nbsp;X&nbsp; KALI &nbsp;X&nbsp; </span>
+                    <span>PYTHON &nbsp;X&nbsp; BASH &nbsp;X&nbsp; VIRUSTOTAL &nbsp;X&nbsp; WIRESHARK &nbsp;X&nbsp; NMAP &nbsp;X&nbsp; BURP SUITE &nbsp;X&nbsp; SPLUNK &nbsp;X&nbsp; PROOFPOINT &nbsp;X&nbsp; MICROSOFT DEFENDER &nbsp;X&nbsp; NESSUS &nbsp;X&nbsp; CROWDSTRIKE &nbsp;X&nbsp; CYBERARK &nbsp;X&nbsp; KALI &nbsp;X&nbsp; </span>
                 </div>
             </div>
             {/* Left & Right Borders (Static) */}
             <div className="border-text border-left">
-                <span>OSCP &nbsp;X&nbsp; CISSP &nbsp;X&nbsp; CEH &nbsp;X&nbsp; SECURITY+</span>
+                <span>SECURITY+ &nbsp;X&nbsp; CySA+ &nbsp;X&nbsp; ISC2 &nbsp;X&nbsp; CNSS </span>
             </div>
             <div className="border-text border-right">
-                <span>DEFENDING THE DIGITAL FRONTIER &nbsp;◇&nbsp; ALWAYS VIGILANT</span>
+                <span> SENIOR CYBER SECURITY ANALYST &nbsp;◇&nbsp; BARCLAYS </span>
             </div>
         </>
     );
@@ -91,8 +91,9 @@ export default function App() {
             title: "ABOUT ME",
             content: (
                 <>
-                    <p className="mb-4">I am a dedicated and results-oriented Cybersecurity Engineer with [X] years of experience in protecting enterprise systems and data from threats. My expertise lies in vulnerability assessment, penetration testing, and incident response.</p>
-                    <p>I thrive on the challenge of staying one step ahead of malicious actors and am passionate about building secure and resilient digital environments. I believe in a proactive, defense-in-depth approach to security. This is placeholder text - feel free to replace it with your own bio!</p>
+                    <p className="mb-4"> I’m Harneet Gawera, a cybersecurity professional with hands-on expertise in threat intelligence, incident response, and security operations. I currently work within the financial sector, where I help safeguard critical systems and infrastructure by bridging deep technical knowledge with real-world business needs. My experience spans the full lifecycle of incident response — from triage and containment to root cause analysis and recovery as well as managing SIEM platforms, performing threat hunting, and integrating threat intelligence into proactive defense strategies.</p>
+                    <p> I’m skilled in scripting and automation using Python, PowerShell, and Bash, and I frequently work with cloud platforms such as AWS and Azure, to ensure secure configurations and continuous monitoring. In day-to-day operations, I use a wide range of tools including Splunk, Microsoft Defender, Tanium, and Proofpoint for monitoring and event correlation and platforms like Symantec, Shodan, and VirusTotal to enrich intelligence workflows. My technical toolkit also includes Nmap, Nessus, Wireshark, Burp Suite, and Kali Linux for vulnerability assessment and penetration testing.</p>
+                    <p>Beyond the tools, my core strengths lie in critical thinking, rapid response under pressure, and translating cyber risks into actionable strategies. I’ve worked with identity and access management systems, developed use cases aligned to the MITRE ATT&CK framework. I thrive in high-stakes environments and am passionate about using cybersecurity not just as a defensive function, but as a business enabler that protects trust, continuity, and resilience in the digital age.</p>
                 </>
             )
         },
@@ -101,44 +102,112 @@ export default function App() {
             content: (
                 <>
                     <div className="mb-6">
-                        <h3 className="text-xl font-bold">Automated Phishing Detection System</h3>
-                        <p className="text-sm text-gray-400 mb-2">Developed a system using Python and machine learning to analyze incoming emails for phishing indicators, achieving a 98% detection rate.</p>
-                        <a href="#" className="text-[#00aaff] hover:underline">View on GitHub &rarr;</a>
+                        <h3 className="text-xl font-bold">Python Cyber Course</h3>
+                        <p className="text-sm text-gray-400 mb-2">Developed a system using Python to code tools such as packet sniffer, MAC address changer and much more.</p>
+                        <a href="https://github.com/hgawera/PythonCyber" className="text-[#00aaff] hover:underline">View on GitHub &rarr;</a>
                     </div>
                     <div className="mb-6">
-                        <h3 className="text-xl font-bold">Corporate Network Security Audit</h3>
-                        <p className="text-sm text-gray-400 mb-2">Conducted a full-scale penetration test on a simulated corporate network, identified 15 critical vulnerabilities, and provided a comprehensive remediation report.</p>
-                    </div>
-                    <div className="mb-6">
-                        <h3 className="text-xl font-bold">CTF Challenge Write-ups</h3>
-                        <p className="text-sm text-gray-400 mb-2">Regularly participate in Capture The Flag competitions. Authored detailed write-ups for challenges on platforms like Hack The Box and TryHackMe.</p>
-                        <a href="#" className="text-[#00aaff] hover:underline">Read Write-ups &rarr;</a>
+                        <h3 className="text-xl font-bold">Java Game Development</h3>
+                        <p className="text-sm text-gray-400 mb-2">Developed a simple game in Java</p>
+                        <a href="https://github.com/hgawera/JavaGame" className="text-[#00aaff] hover:underline">View on GitHub &rarr;</a>
                     </div>
                 </>
             )
         },
         skills: {
-            title: "SKILLS & EXPERTISE",
+            title: "EXPERIENCE",
             content: (
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div>
-                        <h3 className="text-xl font-bold mb-2">Offensive Security</h3>
+                        <h3 className="text-xl font-bold mb-2">BARCLAYS</h3>
+                        <h4 className="text-xl font-bold mb-2">Senior Cyber Operations Analyst</h4>
                         <ul className="list-disc list-inside">
-                            <li>Penetration Testing (Web, Network)</li>
+                            <li>Penetration Testing (Beginner)</li>
                             <li>Vulnerability Assessment</li>
-                            <li>Social Engineering</li>
-                            <li>Red Teaming</li>
+                            <li>CTF</li>
                         </ul>
                     </div>
                     <div>
-                        <h3 className="text-xl font-bold mb-2">Defensive Security</h3>
+                        <h4 className="text-xl font-bold mb-2">Vulnerability and Patch Management Specialist</h4>
                         <ul className="list-disc list-inside">
                             <li>Incident Response & Forensics</li>
-                            <li>SIEM (Splunk, ELK Stack)</li>
+                            <li>SIEM (Splunk, ELK Stack, SOAR)</li>
                             <li>IDS/IPS Configuration</li>
+                            <li>Threat Hunting</li>
+                            <li>Vulnerability Management</li>
                             <li>Threat Hunting</li>
                         </ul>
                     </div>
+                    <div>
+                        <h4 className="text-xl font-bold mb-2">System Architeect</h4>
+                        <ul className="list-disc list-inside">
+                            <li>Incident Response & Forensics</li>
+                            <li>SIEM (Splunk, ELK Stack, SOAR)</li>
+                            <li>IDS/IPS Configuration</li>
+                            <li>Threat Hunting</li>
+                            <li>Vulnerability Management</li>
+                            <li>Threat Hunting</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 className="text-xl font-bold mb-2">Project Manager</h4>
+                        <ul className="list-disc list-inside">
+                            <li>Incident Response & Forensics</li>
+                            <li>SIEM (Splunk, ELK Stack, SOAR)</li>
+                            <li>IDS/IPS Configuration</li>
+                            <li>Threat Hunting</li>
+                            <li>Vulnerability Management</li>
+                            <li>Threat Hunting</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 className="text-xl font-bold mb-2">Finance and Resourcing Inter</h4>
+                        <ul className="list-disc list-inside">
+                            <li>Incident Response & Forensics</li>
+                            <li>SIEM (Splunk, ELK Stack, SOAR)</li>
+                            <li>IDS/IPS Configuration</li>
+                            <li>Threat Hunting</li>
+                            <li>Vulnerability Management</li>
+                            <li>Threat Hunting</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 className="text-xl font-bold mb-2">SPECSAVERS</h3>
+                        <h4 className="text-xl font-bold mb-2">IT Technician</h4>
+                        <ul className="list-disc list-inside">
+                            <li>Incident Response & Forensics</li>
+                            <li>SIEM (Splunk, ELK Stack, SOAR)</li>
+                            <li>IDS/IPS Configuration</li>
+                            <li>Threat Hunting</li>
+                            <li>Vulnerability Management</li>
+                            <li>Threat Hunting</li>
+                        </ul>
+                    </div>
+                    <div>
+                    <h3 className="text-xl font-bold mb-2">KUMON</h3>
+                        <h4 className="text-xl font-bold mb-2">Tutor</h4>
+                        <ul className="list-disc list-inside">
+                            <li>Incident Response & Forensics</li>
+                            <li>SIEM (Splunk, ELK Stack, SOAR)</li>
+                            <li>IDS/IPS Configuration</li>
+                            <li>Threat Hunting</li>
+                            <li>Vulnerability Management</li>
+                            <li>Threat Hunting</li>
+                        </ul>
+                    </div>
+                    <div>
+                    <h3 className="text-xl font-bold mb-2">METALITE-LTD</h3>
+                        <h4 className="text-xl font-bold mb-2">IT Engineer and Admin</h4>
+                        <ul className="list-disc list-inside">
+                            <li>Incident Response & Forensics</li>
+                            <li>SIEM (Splunk, ELK Stack, SOAR)</li>
+                            <li>IDS/IPS Configuration</li>
+                            <li>Threat Hunting</li>
+                            <li>Vulnerability Management</li>
+                            <li>Threat Hunting</li>
+                        </ul>
+                    </div>
+                    
                 </div>
             )
         },
@@ -146,9 +215,10 @@ export default function App() {
             title: "GET IN TOUCH",
             content: (
                  <ul className="space-y-3">
-                    <li><strong>Email:</strong> <a href="mailto:your.email@example.com" className="text-[#00aaff] hover:underline">your.email@example.com</a></li>
-                    <li><strong>LinkedIn:</strong> <a href="#" target="_blank" rel="noopener noreferrer" className="text-[#00aaff] hover:underline">linkedin.com/in/yourprofile</a></li>
-                    <li><strong>GitHub:</strong> <a href="#" target="_blank" rel="noopener noreferrer" className="text-[#00aaff] hover:underline">github.com/yourusername</a></li>
+                    <li><strong>Email: </strong> <a href="mailto:harneetgawera@gmail.com" className="text-[#00aaff] hover:underline">Gmail</a></li>
+                    <li><strong>LinkedIn: </strong> <a href="https://www.linkedin.com/in/harneet-gawera/" target="_blank" rel="noopener noreferrer" className="text-[#00aaff] hover:underline">Harneet Gawera</a></li>
+                    <li><strong>GitHub: </strong> <a href="https://github.com/hgawera" target="_blank" rel="noopener noreferrer" className="text-[#00aaff] hover:underline">hgawera</a></li>
+                    <li><strong>CV: </strong> <a href="#" target="_blank" rel="noopener noreferrer" className="text-[#00aaff] hover:underline">Click to Download</a></li>
                 </ul>
             )
         }
@@ -259,7 +329,7 @@ export default function App() {
                 <div className="content-grid">
                     <div className="grid-item" onClick={() => setActiveModal('about')}>ABOUT</div>
                     <div className="grid-item" onClick={() => setActiveModal('projects')}>PROJECTS</div>
-                    <div className="grid-item" onClick={() => setActiveModal('skills')}>SKILLS</div>
+                    <div className="grid-item" onClick={() => setActiveModal('skills')}>EXPERIENCE</div>
                     <div className="grid-item" onClick={() => setActiveModal('contact')}>CONTACT</div>
                 </div>
                 {/* The logo is now a sibling of the grid, positioned absolutely on top */}

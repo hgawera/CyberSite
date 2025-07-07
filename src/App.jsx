@@ -122,89 +122,82 @@ export default function App() {
                         <h3 className="text-xl font-bold mb-2">BARCLAYS</h3>
                         <h4 className="text-xl font-bold mb-2">Senior Cyber Operations Analyst</h4>
                         <ul className="list-disc list-inside">
-                            <li>Penetration Testing (Beginner)</li>
-                            <li>Vulnerability Assessment</li>
-                            <li>CTF</li>
+                            <li>Led daily threat monitoring, incident response, and proactive threat hunting using Splunk and CrowdStrike Falcon to detect anomalous behaviour and advanced threats. </li>
+                            <li>Developed and maintained custom Splunk dashboards to enhance visibility, accelerate investigations, and support decision-making with real-time analytics. </li>
+                            <li>Conducted threat hunts to uncover hidden risks, using findings to inform the implementation of new detection rules and the fine-tuning of existing controls across endpoints, email, and cloud infrastructure. </li>
+                            <li>Managed email security through Proofpoint, responding to phishing incidents, adjusting policies, and improving filtering accuracy.</li>
+                            <li>	Delivered technical training to junior analysts and new joiners, improving incident handling capabilities and alignment with operational standards.</li>
+                            <li>Automated security workflows using Python and PowerShell, reducing manual overhead and enhancing response efficiency. </li>
+                            <li>Ensured compliance with FCA and FED requirements, contributing to governance initiatives and audit readiness. </li>
+                            <li>Worked closely with infrastructure and cloud teams to deploy and optimise security controls across Azure, AWS, and on-premise systems.</li>
+                            <li>Produced comprehensive incident reports, threat analyses, and control effectiveness reviews to inform continuous improvement across the SOC. </li>
                         </ul>
                     </div>
                     <div>
                         <h4 className="text-xl font-bold mb-2">Vulnerability and Patch Management Specialist</h4>
                         <ul className="list-disc list-inside">
-                            <li>Incident Response & Forensics</li>
-                            <li>SIEM (Splunk, ELK Stack, SOAR)</li>
-                            <li>IDS/IPS Configuration</li>
-                            <li>Threat Hunting</li>
-                            <li>Vulnerability Management</li>
-                            <li>Threat Hunting</li>
+                            <li>Led coordination and tracking of vulnerability remediation and patch management, ensuring timely resolution of high-risk findings across systems. </li>
+                            <li>Supported planning and execution of penetration tests, analysing results and integrating fixes into patching workflows.</li>
+                            <li>Ensured compliance with FCA and US FED regulatory requirements, aligning assurance activities with industry best practices. </li>
+                            <li>Collaborated across security, IT, and business teams to assess risks, define control requirements, and drive remediation efforts. </li>
+                            <li>Organised and led stakeholder workshops to resolve assurance issues, optimise tooling (e.g. scanning/reporting systems), and improve governance.</li>
+
                         </ul>
                     </div>
                     <div>
                         <h4 className="text-xl font-bold mb-2">System Architeect</h4>
                         <ul className="list-disc list-inside">
-                            <li>Incident Response & Forensics</li>
-                            <li>SIEM (Splunk, ELK Stack, SOAR)</li>
-                            <li>IDS/IPS Configuration</li>
-                            <li>Threat Hunting</li>
-                            <li>Vulnerability Management</li>
-                            <li>Threat Hunting</li>
+                            <li>Refreshed and maintained annual business roadmaps, aligning strategic priorities across the organisation. </li>
+                            <li>Acted as a central liaison between business units, technology teams, and senior stakeholders to ensure alignment and effective delivery of transformation goals. </li>
+                            <li>Organised and facilitated meetings to resolve disputes on system architecture decisions (e.g. software libraries, platforms, engines), driving consensus on best-fit solutions. </li>
+                            <li>Identified capability gaps and supported enterprise-wide planning through automation workshops, stakeholder engagement, and roadmap integration.</li>
+
+
                         </ul>
                     </div>
                     <div>
                         <h4 className="text-xl font-bold mb-2">Project Manager</h4>
                         <ul className="list-disc list-inside">
-                            <li>Incident Response & Forensics</li>
-                            <li>SIEM (Splunk, ELK Stack, SOAR)</li>
-                            <li>IDS/IPS Configuration</li>
-                            <li>Threat Hunting</li>
-                            <li>Vulnerability Management</li>
-                            <li>Threat Hunting</li>
+                            <li>Delivered multiple projects within the Fraud Technology domain on time and within budget, leveraging structured planning, budget control, and proactive risk management in an Agile manner. </li>
+                            <li>Championed a culture of continuous improvement by proactively identifying opportunities to streamline processes, automate workflows, and enhance efficiency across the project lifecycle.</li>
+                            <li>Conducted post-implementation reviews to assess outcomes, extract lessons learned, and drive iterative enhancements for future projects. </li>
                         </ul>
                     </div>
                     <div>
-                        <h4 className="text-xl font-bold mb-2">Finance and Resourcing Inter</h4>
+                        <h4 className="text-xl font-bold mb-2">Finance and Resourcing Intern</h4>
                         <ul className="list-disc list-inside">
-                            <li>Incident Response & Forensics</li>
-                            <li>SIEM (Splunk, ELK Stack, SOAR)</li>
-                            <li>IDS/IPS Configuration</li>
-                            <li>Threat Hunting</li>
-                            <li>Vulnerability Management</li>
-                            <li>Threat Hunting</li>
+                            <li>Supported balance sheet analysis and reporting, assisting in monitoring cost centres and tracking key financial metrics across business units</li>
+                            <li>Contributed to headcount and resourcing planning, maintaining accurate data on team allocations and capacity forecasting</li>
+                            <li>Collaborated with finance and operations teams to ensure alignment between budgets, forecasts, and workforce strategy</li>
+                            <li>Gained hands-on experience with financial systems, internal reporting tools, and Excel-based modelling for resource optimisation</li>
                         </ul>
                     </div>
                     <div>
                         <h3 className="text-xl font-bold mb-2">SPECSAVERS</h3>
                         <h4 className="text-xl font-bold mb-2">IT Technician</h4>
                         <ul className="list-disc list-inside">
-                            <li>Incident Response & Forensics</li>
-                            <li>SIEM (Splunk, ELK Stack, SOAR)</li>
-                            <li>IDS/IPS Configuration</li>
-                            <li>Threat Hunting</li>
-                            <li>Vulnerability Management</li>
-                            <li>Threat Hunting</li>
+                            <li>Delivered technical support for Linux-based systems, assisting optometrists in resolving access, configuration, and software-related issues.</li>
+                            <li>Monitored and maintained system integrity across in-house Linux environments, whilst enhancing overall IT infrastructure.</li>
+                            <li>Contributed to improving the organisation’s cyber posture by enhancing infrastructure resilience, enforcing access controls, and supporting endpoint security across clinical systems. </li>
+
+
                         </ul>
                     </div>
                     <div>
                     <h3 className="text-xl font-bold mb-2">KUMON</h3>
                         <h4 className="text-xl font-bold mb-2">Tutor</h4>
                         <ul className="list-disc list-inside">
-                            <li>Incident Response & Forensics</li>
-                            <li>SIEM (Splunk, ELK Stack, SOAR)</li>
-                            <li>IDS/IPS Configuration</li>
-                            <li>Threat Hunting</li>
-                            <li>Vulnerability Management</li>
-                            <li>Threat Hunting</li>
+                            <li>Supported students aged 5–16 in maths and English, providing tailored guidance to improve academic performance and independent learning skills</li>
+                            <li>Marked and assessed work with attention to detail, tracking student progress and identifying areas needing reinforcement</li>
+                            <li>Helped manage classroom operations, maintained a focused learning environment, and communicated effectively with parents and instructors</li>
                         </ul>
                     </div>
                     <div>
                     <h3 className="text-xl font-bold mb-2">METALITE-LTD</h3>
                         <h4 className="text-xl font-bold mb-2">IT Engineer and Admin</h4>
                         <ul className="list-disc list-inside">
-                            <li>Incident Response & Forensics</li>
-                            <li>SIEM (Splunk, ELK Stack, SOAR)</li>
-                            <li>IDS/IPS Configuration</li>
-                            <li>Threat Hunting</li>
-                            <li>Vulnerability Management</li>
-                            <li>Threat Hunting</li>
+                            <li>Organised and deployed secure IT infrastructure, setting up hardware (computers, peripherals, routers) and software systems, cloud backup solutions, productivity applications, and host-based firewalls, with a focus on network security, access control, and endpoint protection.</li>
+
                         </ul>
                     </div>
                     

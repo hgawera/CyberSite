@@ -212,7 +212,7 @@ export default function App() {
                     <li><strong>LinkedIn: </strong> <a href="https://www.linkedin.com/in/harneet-gawera/" target="_blank" rel="noopener noreferrer" className="text-[#00aaff] hover:underline">Harneet Gawera</a></li>
                     <li><strong>GitHub: </strong> <a href="https://github.com/hgawera" target="_blank" rel="noopener noreferrer" className="text-[#00aaff] hover:underline">hgawera</a></li>
                     <li><strong>CV: </strong> <a 
-                href="/Harneet Gawera CV Jul25.pdf"
+                href="Harneet-Gawera-CV-Jul25.pdf"
                 download
                 className="inline-block bg-[#00aaff] text-black font-bold py-2 px-4 rounded-lg hover:bg-blue-300 transition-colors"
             >
